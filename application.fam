@@ -1,0 +1,10 @@
+App(
+    appid="magiquest_wand",
+    name="MagiQuest Wand",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="magiquest_wand_app",
+    requires=["gui", "storage", "infrared"],
+    stack_size=2 * 1024,
+    fap_icon="A_MagiQuest_10px.png",
+    fap_category="Infrared",
+)
